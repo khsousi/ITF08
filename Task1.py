@@ -6,4 +6,10 @@ age = input("Enter Your Age: ")
 # print(age)
 date = input("Enter Your date: ")
 # print(date)
-print(name, age, date)
+
+text = f"""My name is {name} 
+my age is {age} 
+my Birhday date is {date} """
+
+
+print(text)
