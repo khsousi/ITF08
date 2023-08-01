@@ -1,5 +1,3 @@
-# Task 1
-
 name = input("Enter Your Name: ")
 # print(name)
 age = input("Enter Your Age: ")
@@ -7,4 +5,8 @@ age = input("Enter Your Age: ")
 date = input("Enter Your date: ")
 # print(date)
 
-print(name, age, date)
+text = f"""My name is {name} 
+my age is {age} 
+my birhday date is {date} """
+
+print(text)
