@@ -36,3 +36,4 @@ print(a.replace("W", "w"))
 
 # The split() method returns a list
 print(a.split(" "))
+
