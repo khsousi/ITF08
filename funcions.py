@@ -1,9 +1,9 @@
-num1= int(input("Enter Number1: "))
-num2= int(input("Enter Number2: "))
+num1 = int(input("Enter Number1: "))
+num2 = int(input("Enter Number2: "))
 
 
-def add_num(num1, num2):
-    add = num1+num2
+def add_num(num_1, num_2):
+    add = num_1+num_2
     print(add)
     return add
 
@@ -11,8 +11,8 @@ def add_num(num1, num2):
 add_num(num1, num2)
 
 
-def subtraction_num(num1, num2):
-    subtraction = num1-num2
+def subtraction_num(num_1, num_2):
+    subtraction = num_1-num_2
     print(subtraction)
     return subtraction
 
@@ -20,8 +20,8 @@ def subtraction_num(num1, num2):
 subtraction_num(num1, num2)
 
 
-def multiplication_num(num1, num2):
-    multiplication = num1*num2
+def multiplication_num(num_1, num_2):
+    multiplication = num_1*num_2
     print(multiplication)
     return multiplication
 
@@ -29,8 +29,8 @@ def multiplication_num(num1, num2):
 multiplication_num(num1, num2)
 
 
-def division_num(num1, num2):
-    division = num1/num2
+def division_num(num_1, num_2):
+    division = num_1/num_2
     print(division)
     return division
 
