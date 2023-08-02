@@ -1,10 +1,14 @@
+num1= int(input("Enter Number1: "))
+num2= int(input("Enter Number2: "))
+
+
 def add_num(num1, num2):
     add = num1+num2
     print(add)
     return add
 
 
-add_num(5, 3)
+add_num(num1, num2)
 
 
 def subtraction_num(num1, num2):
@@ -13,7 +17,7 @@ def subtraction_num(num1, num2):
     return subtraction
 
 
-subtraction_num(5, 3)
+subtraction_num(num1, num2)
 
 
 def multiplication_num(num1, num2):
@@ -22,7 +26,7 @@ def multiplication_num(num1, num2):
     return multiplication
 
 
-multiplication_num(5, 3)
+multiplication_num(num1, num2)
 
 
 def division_num(num1, num2):
@@ -31,4 +35,4 @@ def division_num(num1, num2):
     return division
 
 
-division_num(5, 3)
+division_num(num1, num2)
