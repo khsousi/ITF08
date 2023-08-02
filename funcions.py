@@ -1,27 +1,34 @@
-def sum_num(num1, num2):
-    summ = num1+num2
-    print(summ)
-    return summ
+def add_num(num1, num2):
+    add = num1+num2
+    print(add)
+    return add
 
-sum_num(5,3)
 
-def sub_num(num1 , num2):
-    subb = num1-num2
-    print(subb)
-    return subb
+add_num(5, 3)
 
-sub_num(5,3)
 
-def multibale_num(num1, num2):
-    multibale = num1*num2
-    print(multibale)
-    return multibale
+def subtraction_num(num1, num2):
+    subtraction = num1-num2
+    print(subtraction)
+    return subtraction
 
-multibale_num(5,3)
 
-def devision_num(num1, num2):
-    devision = num1/num2
-    print(devision)
-    return devision
+subtraction_num(5, 3)
 
-devision_num(5,3)
+
+def multiplication_num(num1, num2):
+    multiplication = num1*num2
+    print(multiplication)
+    return multiplication
+
+
+multiplication_num(5, 3)
+
+
+def division_num(num1, num2):
+    division = num1/num2
+    print(division)
+    return division
+
+
+division_num(5, 3)
