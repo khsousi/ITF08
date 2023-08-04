@@ -44,10 +44,17 @@
 # print(txt2)
 #
 # print(10 > 11)
+#
+# Age = input("Enter Your Age: ")
+# def my_age(age):
+#     print("My Age = " + Age)
+#
+#
+# my_age(Age)
 
-Age = input("Enter Your Age: ")
-def my_age(age):
-    print("My Age = " + Age)
+
+def add(num_1, num_2):
+    return num_1 + num_2
 
 
-my_age(Age)
+print(add(100, 15))
