@@ -37,10 +37,17 @@
 #
 # # The split() method returns a list
 # print(a.split(" "))
-age = 36
-txt = "My name is John, and I am {}"
-print(txt.format(age))
-txt2 = f"My name is john, and I am {age}"
-print(txt2)
+# age = 36
+# txt = "My name is John, and I am {}"
+# print(txt.format(age))
+# txt2 = f"My name is john, and I am {age}"
+# print(txt2)
+#
+# print(10 > 11)
 
-print(10 > 11)
+Age = input("Enter Your Age: ")
+def my_age(age):
+    print("My Age = " + Age)
+
+
+my_age(Age)
