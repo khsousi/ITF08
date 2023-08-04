@@ -3,36 +3,28 @@ num2 = int(input("Enter Number2: "))
 
 
 def add_num(num_1, num_2):
-    add = num_1+num_2
-    print(add)
-    return add
+    return num_1+num_2
 
 
 add_num(num1, num2)
 
 
 def subtraction_num(num_1, num_2):
-    subtraction = num_1-num_2
-    print(subtraction)
-    return subtraction
+    return num_1-num_2
 
 
-subtraction_num(num1, num2)
+print(subtraction_num(num1, num2))
 
 
 def multiplication_num(num_1, num_2):
-    multiplication = num_1*num_2
-    print(multiplication)
-    return multiplication
+    return num_1*num_2
 
 
-multiplication_num(num1, num2)
+print(multiplication_num(num1, num2))
 
 
 def division_num(num_1, num_2):
-    division = num_1/num_2
-    print(division)
-    return division
+    return num_1/num_2
 
 
-division_num(num1, num2)
+print(division_num(num1, num2))
