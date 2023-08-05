@@ -1,13 +1,12 @@
-
-
-
 def tringle():
     height = int(input("Enter Num1: "))
     base = int(input("Enter Num2: "))
     tringle_area = (0.5*base)*height
     return tringle_area
 
+
 print(tringle())
+
 
 def circle():
     radius = int(input("Enter radius: "))
@@ -17,9 +16,12 @@ def circle():
 
 print(circle())
 
-def square():
-    side = int(input("Enter side: "))
-    area_square = side * 2
-    return area_square
 
-print(square())
+def rectangle():
+    length = int(input("Enter length: "))
+    width = int(input("Enter width: "))
+    area_rectangle= length * width
+    return area_rectangle
+
+
+print(rectangle())
