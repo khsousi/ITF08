@@ -1,36 +1,44 @@
 # I'M SORRY FOR THE DELAY.
-
-num1 = int(input("Enter Number1: "))
-num2 = int(input("Enter Number2: "))
-
-
-def add_num(num_1, num_2):
+def add_num():
+    num_1 = int(input("Enter First Number: "))
+    num_2 = int(input("Enter Second Number: "))
     return num_1+num_2
 
 
-def subtraction_num(num_1, num_2):
+def subtraction_num():
+    num_1 = int(input("Enter First Number: "))
+    num_2 = int(input("Enter Second Number: "))
     return num_1-num_2
 
 
-def multiplication_num(num_1, num_2):
+def multiplication_num():
+    num_1 = int(input("Enter First Number: "))
+    num_2 = int(input("Enter Second Number: "))
     return num_1*num_2
 
 
-def division_num(num_1, num_2):
+def division_num():
+    num_1 = int(input("Enter First Number: "))
+    num_2 = int(input("Enter Second Number: "))
     return num_1/num_2
 
 
-def triangle(heigh, base):
-    area = (0.5*base)*heigh
+def triangle():
+    length = int(input("Enter length: "))
+    base = int(input("Enter Base: "))
+    area = (0.5 * base)*length
     return area
 
 
-def circle(radius):
+def circle():
+    radius = int(input("Enter Radius: "))
     area = 3.14 * radius ** 2
     return area
 
 
-def rectangle(length, width):
+def rectangle():
+    length = int(input("Enter length: "))
+    width = int(input("Enter width: "))
     area = length * width
     return area
 
@@ -53,19 +61,19 @@ while True:
             selection = int(input("Invalid Input, Try Again: "))
 
     if selection == 1:
-        print(add_num(num1, num2))
+        print(add_num())
     elif selection == 2:
-        print(subtraction_num(num1, num2))
+        print(subtraction_num())
     elif selection == 3:
-        print(multiplication_num(num1, num2))
+        print(multiplication_num())
     elif selection == 4:
-        print(division_num(num1, num2))
+        print(division_num())
     elif selection == 5:
-        print(triangle(heigh=num1, base=num2))
+        print(triangle())
     elif selection == 6:
-        print(circle(radius=num1))
+        print(circle())
     elif selection == 7:
-        print(rectangle(length=num1, width=num2))
+        print(rectangle())
     elif selection == 8:
         exit()
 
