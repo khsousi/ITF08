@@ -54,8 +54,9 @@ while True:
                           "7- Rectangle Area\n"
                           "8- Exit\n"
                           "Select Operation: "))
+
     while True:
-        if selection <= 8 and selection >= 1:
+        if 8 >= selection >= 1:
             break
         else:
             selection = int(input("Invalid Input, Try Again: "))
