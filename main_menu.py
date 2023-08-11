@@ -76,5 +76,5 @@ while True:
     elif selection == 7:
         print(rectangle())
     elif selection == 8:
-        exit("Program End")
+        exit("The program is over")
 
