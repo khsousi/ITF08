@@ -37,7 +37,7 @@ def rectangle(length, width):
 
 while True:
 
-    selection = int(input("1- Sub \n"
+    selection = int(input("1- Sum \n"
                           "2- Subtract\n"
                           "3- Multiply\n "
                           "4- Division\n "
