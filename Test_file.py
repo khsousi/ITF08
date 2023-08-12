@@ -53,8 +53,39 @@
 # my_age(Age)
 
 
-def add(num_1, num_2):
-    return num_1 + num_2
+# def add(num_1, num_2):
+#     return num_1 + num_2
+#
+#
+# print(add(100, 15))
+#
+
+# for i in range(0, 101):
+#     if i % 2 == 0:
+#         print(i)
+#
+#
+# for x in range(0, 101, 3):
+#     print(x)
 
 
-print(add(100, 15))
+# def tringle(heigh, base):
+#     area = (0.5*base)*height
+#     return area
+#
+# print(tringle(heigh,base))
+
+
+# def rectangle():
+#     length = int(input("Enter length: "))
+#     width = int(input("Enter width: "))
+#     area = length * width
+#     return area
+#
+#
+# print(rectangle())
+
+
+
+
+
