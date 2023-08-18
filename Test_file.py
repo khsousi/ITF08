@@ -85,7 +85,69 @@
 #
 # print(rectangle())
 
+# even_sum = 0
+# odd_sum = 0
+# for i in range(12, 38):
+#     if i % 2 == 0:
+#         even_sum += i
+#     else:
+#         odd_sum += i
+#
+# print(f"Even Numbers Sum={even_sum}")
+# print(f"Odd Numbers Sum={odd_sum}")
+# #
+#
+# for i in range(1, 21):
+#     if i % 2 == 0 or i % 3 == 0:
+#         continue
+#     else:
+#         print(i)
 
+# num = int(input("Enter Any Number: "))
+#
+# for i in range(1, 11):
+#     print(num, "*", i, "=", num*i)
+#
+
+# def summ(num1, num2):
+#     summ = num1 + num2
+#     if summ in range(10, 21):
+#         return 10
+#     else:
+#         return summ
+#
+#
+# print(summ(5, 50))
+
+
+# def test(x, y):
+#     summ = x+y
+#     diff = x-y
+#     if x != y or summ == 7 or diff == 6:
+#         return True
+#     else:
+#         return False
+#
+# print(test(5,8))
+
+
+# def calc(n1, n2, n3):
+#     summ = n1 + n2 + n3
+#     if n1 == n2 == n3:
+#         # return summ*3
+#         summ *= 3
+#         return summ
+#     else:
+#         return summ
+#
+# print(calc(1,2,3))
+# print(calc(3,3,3))
+
+
+# import calendar
+# year = int(input("Enter the Year: "))
+# month = int(input("Enter the Month: "))
+# print(calendar.month(year, month))
 
 
 
