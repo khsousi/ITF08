@@ -1,8 +1,8 @@
 total = 0
-my_marks = []
 student_count = int(input("Enter Student Count: "))
-marks_count = int(input("Enter Marks Count: "))
-for j in range(0, student_count):
+for j in range(student_count):
+    marks_count = int(input("Enter Marks Count: "))
+    my_marks = []
     for i in range(0, marks_count):
         mark = float(input(f"Enter mark {i+1}: "))
         my_marks.append(mark)
