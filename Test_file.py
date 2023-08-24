@@ -153,3 +153,4 @@ my_list = ["apple", "banana", "cherry", 55, True]
 print(my_list)
 print(len(my_list))
 print(type(my_list))
+
