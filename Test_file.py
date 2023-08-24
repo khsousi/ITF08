@@ -149,8 +149,87 @@
 # month = int(input("Enter the Month: "))
 # print(calendar.month(year, month))
 
-my_list = ["apple", "banana", "cherry", 55, True]
+# my_list = ["apple", "banana", "cherry", 55, True]
+# print(my_list)
+# print(len(my_list))
+# print(type(my_list))
+#
+# sec_list = list(("Ahmed", 78 , False))
+# print(sec_list)
+# print(type(sec_list))
+# print(sec_list[-1])
+#
+# this_list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(this_list[2:5])
+# print(this_list[:4])
+# print(this_list[2:])
+# print(this_list[-4:-1])
+#
+#
+# if "orange" in this_list :
+#     print("Yes Orange is exist")
+#
+# this_list[2] = 5
+# print(this_list)
+# this_list[:2]= ["Ahmed", "khaled", 88]
+# print(this_list)
+#
+# sec_list = ["apple", "banana", "cherry"]
+# sec_list[1:2] = ["blackcurrant", "watermelon"]
+# print(sec_list)
+#
+# this_list[2:4] = ["Mohammed"]
+# print(this_list)
+#
+# this_list.insert(3, "Kahaleel")
+# print(this_list)
+#
+# this_list.append("Ismael")
+# print(this_list)
+#
+# third_list = ["apple", "banana", "cherry"]
+# tropical = ["mango", "pineapple", "papaya"]
+# third_list.extend(tropical)
+# print(third_list)
+# third_list.remove("apple")
+# print(third_list)
+# third_list.pop(1)
+# print(third_list)
+# del third_list
+
+
+# the_list = ["apple", "banana", "cherry"]
+
+# for item in the_list:
+#     print(item)
+# for i in range(len(the_list)):
+#     print(i, the_list[i])
+# for item in range(len(the_l ist)):
+#     print(f'The Index Of {the_list[item]} Is {item} ')
+# i=0
+# while i < len(the_list):
+#     print(the_list[i])
+#     i+=1
+# for x in the_list:
+#     print(x)
+
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# new_list = []
+#
+# for i in fruits:
+#     if "a" in i:
+#         new_list.append(i)
+#
+# print(new_list)
+
+this_list = ["orange", "mango", "kiwi", "pineapple", "banana"]
+# sec_list = [0, 100, 1, 5, 2, 5]
+# sec_list.sort(reverse=True)
+# print(sec_list)
+# this_list.sort()
+# print(this_list)
+
+my_list = this_list.copy()
 print(my_list)
-print(len(my_list))
-print(type(my_list))
+
 
