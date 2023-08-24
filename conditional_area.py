@@ -11,6 +11,7 @@ def tringle(height, base):
     area = (0.5 * base) * height
     scan(area)
 
+
 def circle(radius):
     area = 3.14 * radius ** 2
     scan(area)
