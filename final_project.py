@@ -41,9 +41,6 @@ class Student:
         Student.total += 1
 
 student = Student(student_name="khaled", student_age=22, student_number="11")
-
-
-# TODO 5 define a method to enroll new course to student courses list
     def student_course(self, course_name):
         self.course_list.append(course_name)
 
@@ -54,16 +51,16 @@ student = Student(student_name="khaled", student_age=22, student_number="11")
     # method to get_student_courses
     def get_student_courses(self):
         # # TODO 6 print student courses with their marks
-        # print(self.student_name)
-        # for i in self.student_course():
-        #     print("Course Name: ", student_course(student_name))
+        print(f"name: {self.student_name} Number: {self.student_number}" )
+        for i in self.courses:
+            print("Course Name: ", i.course_name)
+            print("Course Mark: ", i.course_mark)
 
 
     # method to get student_average as a value
     def get_student_average(self):
-        pass
-    # TODO 7 return the student average
 
+        # TODO 7 return the student average
 
 # in Global Scope
 # TODO 8 declare empty students list
@@ -91,15 +88,35 @@ while True:
         # TODO 10 create student object and append it to students list
         student = Student(student_number, student_name, student_age)
         students_list.append(student)
-
         print("Student Added Successfully")
 
     elif selection == 2:
         student_number = input("Enter Student Number")
         # TODO 11 find the target student using loops and delete it if exist , if not print ("Student Not Exist")
+        exist = False
+        for student in students_list:
+            if student.student_number == student_number:
+                students_list.remove(student)
+                exist = True
+                print("Student Deleted")
+                break
+        if not exist:
+            print("Student Not Exist")
+
     elif selection == 3:
         student_number = input("Enter Student Number")
         # TODO 12 find the target student using loops and print student detials  if exist , if not print ("Student Not Exist")
+        exist = False
+        for student in students_list:
+            if student.student_number == student_number:
+                exist = True
+                print("Student Details:")
+                print("Student Number Is: ", student.student_number)
+                print("Student Name Is: ", student.student_name)
+                print("Student Age Is: ", student.student_age)
+                break
+        if not exist:
+            print("Student Not Exist")
     elif selection == 4:
         student_number = input("Enter Student Number")
         # TODO 13 find the target student using loops and get student average  if exist , if not print ("Student Not Exist")
